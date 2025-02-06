@@ -4,12 +4,21 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+import requests
 #from webdriver_manager.chrome import ChromeDriverManager
 import json
 import time
-
+import os
 
 def iniciar_driver():
+    api_token = os.getenv("BROWSERLESS_API_TOKEN")
+
+    if not api_token:
+        raise ValueError("BROWSERLESS_API_TOKEN is not set")
+
+    # Construct the URL dynamically
+    selenium_endpoint = f"https://{api_token}@chrome.browserless.io/webdriver"
+
     """Inicializa o WebDriver do Chrome em modo headless."""
     chrome_options = Options()
     chrome_options.add_argument("--headless")  # Executa sem interface gráfica
@@ -17,20 +26,10 @@ def iniciar_driver():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
-    #service = Service(ChromeDriverManager().install())
-    #driver = webdriver.Chrome(service=service, options=chrome_options)
-    #return driver
-
-    # Use Browserless API
-    #selenium_endpoint = "https://chrome.browserless.io/webdriver?token=RiwbM78mAwsQBr92c2cee3399fb89b349138a5b578"
-
-    selenium_endpoint = "https://RiwbM78mAwsQBr92c2cee3399fb89b349138a5b578@chrome.browserless.io/webdriver"
-    #chrome_options.set_capability("browserless:token", "RiwbM78mAwsQBr92c2cee3399fb89b349138a5b578")
 
     driver = webdriver.Remote(
         command_executor=selenium_endpoint,
-        options=chrome_options,
-        keep_alive=True
+        options=chrome_options
     )
 
     return driver
