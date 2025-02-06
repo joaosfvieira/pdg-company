@@ -1,98 +1,89 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 import json
 import time
 
-#def run_process():
-# Configurar o WebDriver (Chromium)
-options = webdriver.ChromeOptions()
-options.add_argument("--headless")  # Se quiser rodar sem abrir o navegador
-driver = webdriver.Chrome(options=options)
 
-try:
-    # Abrir o site
-    driver.get("https://zenit.games/priston/login.php")
-    # Aguardar a página carregar
-    time.sleep(3)
+def iniciar_driver():
+    """Inicializa o WebDriver do Chrome em modo headless."""
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Executa sem interface gráfica
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    print("Página Login Carregada")
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    return driver
 
-    # Localizar e preencher campos de login
-    driver.find_element(By.ID, "email").send_keys("lutadorpriston382@gmail.com")
-    driver.find_element(By.ID, "c2").send_keys("ywt7wYWT7W@" + Keys.RETURN)
 
-    # Esperar login ser processado
-    time.sleep(5)
+def executar_scraper():
+    """Executa o processo de scraping no site da Zenit Games."""
+    driver = iniciar_driver()
 
-    print("Logado")
+    try:
+        # Acessa a página de login
+        driver.get("https://zenit.games/priston/login.php")
+        time.sleep(3)
 
-    # Abrir o site
-    driver.get("https://zenit.games/priston/login.php")
-    # Aguardar a página carregar
-    time.sleep(3)
+        print("Página Login Carregada")
 
-    print("Página Clãs")
+        # Preenche os campos de login e submete o formulário
+        driver.find_element(By.ID, "email").send_keys("lutadorpriston382@gmail.com")
+        driver.find_element(By.ID, "c2").send_keys("ywt7wYWT7W@" + Keys.RETURN)
 
-    driver.get("https://zenit.games/priston/clan.php")
-    time.sleep(3)
+        time.sleep(5)
+        print("Logado")
 
-    print("Meu Clã")
+        # Acessa a página do clã
+        driver.get("https://zenit.games/priston/clan.php")
+        time.sleep(3)
+        print("Meu Clã")
 
-    # 1. Encontrar e clicar no <select> para abrir o menu suspenso
-    select_element = driver.find_element(By.TAG_NAME, "select")
-    select_element.click()
-    time.sleep(1)  # Pequeno delay para garantir que as opções sejam carregadas
+        # Encontra o menu suspenso e seleciona o clã
+        select_element = driver.find_element(By.TAG_NAME, "select")
+        select = Select(select_element)
+        select.select_by_value("43;8")
 
-    # 2. Criar objeto Select e selecionar a opção desejada
-    select = Select(select_element)
-    select.select_by_value("43;8")
+        option_element = driver.find_element(By.XPATH, "//option[@value='43;8']")
+        driver.execute_script("arguments[0].click();", option_element)
+        time.sleep(3)
+        print("Pardal Gaming")
 
-    # 3. Clicar na opção selecionada usando JavaScript
-    option_element = driver.find_element(By.XPATH, "//option[@value='43;8']")
-    driver.execute_script("arguments[0].click();", option_element)
-    time.sleep(3)
+        # Lista para armazenar os dados dos jogadores
+        jogadores = []
 
-    print("Pardal Gaming")
+        # Captura todas as linhas de jogadores do clã
+        linhas_clan = driver.find_elements(By.XPATH, "//div[contains(@class, 'clanLinha')]")
 
-    # Lista para armazenar os dados dos jogadores
-    jogadores = []
+        for linha in linhas_clan:
+            posicao = linha.find_element(By.CLASS_NAME, "membroPosicao").text
+            nome = linha.find_element(By.CLASS_NAME, "membroNome").text
+            classe = linha.find_element(By.CLASS_NAME, "membroClasse").text
+            lvl = linha.find_element(By.CLASS_NAME, "membroLvl").text
+            desde = linha.find_element(By.CLASS_NAME, "membroDesde").text
 
-    # Localiza todas as divs de jogadores
-    linhas_clan = driver.find_elements(By.XPATH, "//div[contains(@class, 'clanLinha')]")
+            jogadores.append({
+                "posicao": posicao,
+                "nome": nome,
+                "classe": classe,
+                "lvl": lvl,
+                "desde": desde
+            })
 
-    # Itera por cada linha de jogador e extrai os dados
-    for linha in linhas_clan:
-        posicao = linha.find_element(By.CLASS_NAME, "membroPosicao").text
-        nome = linha.find_element(By.CLASS_NAME, "membroNome").text
-        classe = linha.find_element(By.CLASS_NAME, "membroClasse").text
-        lvl = linha.find_element(By.CLASS_NAME, "membroLvl").text
-        desde = linha.find_element(By.CLASS_NAME, "membroDesde").text
+        # Salva os dados no arquivo jogadores.json
+        with open("jogadores.json", "w", encoding="utf-8") as file:
+            json.dump(jogadores, file, indent=4, ensure_ascii=False)
 
-        # Adiciona o jogador à lista como um dicionário
-        jogador = {
-            "posicao": posicao,
-            "nome": nome,
-            "classe": classe,
-            "lvl": lvl,
-            "desde": desde
-        }
-        jogadores.append(jogador)
+        print("Arquivo jogadores.json salvo com sucesso!")
 
-    # Converte a lista para JSON e salva no arquivo jogadores.json
-    with open("jogadores.json", "w", encoding="utf-8") as file:
-        json.dump(jogadores, file, indent=4, ensure_ascii=False)
+    finally:
+        driver.quit()  # Fecha o navegador
 
-    print("Arquivo jogadores.json salvo com sucesso!")
 
-finally:
-    driver.quit()  # Fechar o navegador
-
-# Loop para repetir o processo a cada 1 hora (3600 segundos)
-#while True:
-#    run_process()  # Executar o processo
-#    print("Aguardando 1 hora para repetir o processo...")
-#    time.sleep(3600)  # Espera de 1 hora (3600 segundos) antes de repetir
+if __name__ == "__main__":
+    executar_scraper()
