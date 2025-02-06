@@ -25,3 +25,14 @@ jobs:
     
     - name: Run Scraper
       run: python webscrapper.py
+
+    - name: Commit and push generated JSON file
+      run: |
+        git config --global user.email "joaosfvieira@hotmail.com"
+        git config --global user.name "GitHub Actions"
+        git add jogadores.json
+        git commit -m "Add scraped JSON data"
+        git push origin main
+      env:
+        # Use a GitHub token to authenticate
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
