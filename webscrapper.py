@@ -31,15 +31,12 @@ def iniciar_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
 
 
-    capabilities = DesiredCapabilities.CHROME.copy()
-    capabilities["goog:chromeOptions"] = chrome_options.to_capabilities()
-
-    # Set custom headers, including Authorization
-    capabilities["browserless:token"] = api_token
+    # Set the API token as a capability
+    chrome_options.set_capability("browserless:token", api_token)
 
     driver = webdriver.Remote(
         command_executor=browserless_url,
-        desired_capabilities=capabilities
+        options=chrome_options  # ✅ Replacing deprecated desired_capabilities
     )
 
     return driver
