@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify
 import json
 
+
 app = Flask(__name__)
 
 # Carregar os dados do JSON gerado pelo Selenium
@@ -60,6 +61,21 @@ def index():
 @app.route("/api/jogadores")
 def api_jogadores():
     return jsonify(carregar_jogadores())
+
+@app.route("/teste")
+def teste():
+    return("Teste")
+
+import subprocess
+
+@app.route("/run-scraper")
+def run_scraper():
+    try:
+        subprocess.run(["python", "webscrapper.py"], check=True)
+        return jsonify({"status": "success", "message": "Script executado com sucesso"})
+    except subprocess.CalledProcessError as e:
+        return jsonify({"status": "error", "message": str(e)})
+
 
 if __name__ == "__main__":
     app.run()
