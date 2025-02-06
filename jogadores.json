@@ -1,436 +1,436 @@
 [
-    {
-        "posicao": "Líder",
-        "nome": "xPardal",
-        "classe": "Assassina",
-        "lvl": "136",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Vice-Líder",
-        "nome": "coutinhoowz",
-        "classe": "Mago",
-        "lvl": "132",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "LowKick",
-        "classe": "Guerreira",
-        "lvl": "136",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "BudweiserMS",
-        "classe": "Mecânico",
-        "lvl": "126",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "XandeDoBronx",
-        "classe": "Mecânico",
-        "lvl": "136",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Shottz",
-        "classe": "Lutador",
-        "lvl": "125",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Leleca",
-        "classe": "Arqueira",
-        "lvl": "131",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Lyon",
-        "classe": "Lutador",
-        "lvl": "118",
-        "desde": "28/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Sombra99",
-        "classe": "Atalanta",
-        "lvl": "90",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "XamaQueEleVem",
-        "classe": "Xamã",
-        "lvl": "141",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "BBzord",
-        "classe": "Pike",
-        "lvl": "125",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "EscrivaoPcsp",
-        "classe": "Pike",
-        "lvl": "130",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "buhbble",
-        "classe": "Sacerdotisa",
-        "lvl": "109",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "PandoraHOT",
-        "classe": "Arqueira",
-        "lvl": "109",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Carlinhos",
-        "classe": "Arqueira",
-        "lvl": "100",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Biopower",
-        "classe": "Lutador",
-        "lvl": "85",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Spyu",
-        "classe": "Assassina",
-        "lvl": "81",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "BRASILEIRO",
-        "classe": "Xamã",
-        "lvl": "119",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "EqualizerKS",
-        "classe": "Cavaleiro",
-        "lvl": "118",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Lagherta",
-        "classe": "Arqueira",
-        "lvl": "142",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Gintoki",
-        "classe": "Cavaleiro",
-        "lvl": "127",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Lisa",
-        "classe": "Assassina",
-        "lvl": "126",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Igneelz",
-        "classe": "Lutador",
-        "lvl": "112",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "ASBill",
-        "classe": "Arqueira",
-        "lvl": "91",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "YusukeUrameshi",
-        "classe": "Lutador",
-        "lvl": "130",
-        "desde": "29/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Maskara",
-        "classe": "Mago",
-        "lvl": "115",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "CaioCoach",
-        "classe": "Lutador",
-        "lvl": "115",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "zMarechal",
-        "classe": "Lutador",
-        "lvl": "127",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Magordin",
-        "classe": "Mago",
-        "lvl": "117",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Lenake",
-        "classe": "Atalanta",
-        "lvl": "138",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "VimLiMamar",
-        "classe": "Arqueira",
-        "lvl": "124",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Gaucho",
-        "classe": "Lutador",
-        "lvl": "127",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "BarbaNegra",
-        "classe": "Lutador",
-        "lvl": "94",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Rotiv",
-        "classe": "Mago",
-        "lvl": "105",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "FlechaCerteira",
-        "classe": "Arqueira",
-        "lvl": "112",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "furona",
-        "classe": "Arqueira",
-        "lvl": "127",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Valor",
-        "classe": "Cavaleiro",
-        "lvl": "128",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "xPandora",
-        "classe": "Atalanta",
-        "lvl": "102",
-        "desde": "30/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "cRaZyFrogg",
-        "classe": "Lutador",
-        "lvl": "116",
-        "desde": "31/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Kalahari",
-        "classe": "Assassina",
-        "lvl": "115",
-        "desde": "31/01/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "WeedDoc",
-        "classe": "Cavaleiro",
-        "lvl": "133",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "ObskurerFuhrer",
-        "classe": "Lutador",
-        "lvl": "137",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "AndinTreteiro",
-        "classe": "Atalanta",
-        "lvl": "134",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Neh",
-        "classe": "Arqueira",
-        "lvl": "120",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "HXGaming",
-        "classe": "Lutador",
-        "lvl": "132",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "MecanicoDoBaja",
-        "classe": "Mecânico",
-        "lvl": "125",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "SuperDedecas",
-        "classe": "Cavaleiro",
-        "lvl": "99",
-        "desde": "01/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "FStale",
-        "classe": "Lutador",
-        "lvl": "133",
-        "desde": "02/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Mzk",
-        "classe": "Atalanta",
-        "lvl": "121",
-        "desde": "02/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Aura",
-        "classe": "Lutador",
-        "lvl": "128",
-        "desde": "02/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "ElPoron",
-        "classe": "Xamã",
-        "lvl": "135",
-        "desde": "03/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Marteu",
-        "classe": "Sacerdotisa",
-        "lvl": "126",
-        "desde": "03/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "ARCHbullish",
-        "classe": "Arqueira",
-        "lvl": "123",
-        "desde": "04/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "WILLXz",
-        "classe": "Pike",
-        "lvl": "120",
-        "desde": "04/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "SweetSword",
-        "classe": "Cavaleiro",
-        "lvl": "93",
-        "desde": "04/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "zWandaoArcher",
-        "classe": "Arqueira",
-        "lvl": "120",
-        "desde": "04/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "SeiLa",
-        "classe": "Atalanta",
-        "lvl": "119",
-        "desde": "05/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "ReCaR",
-        "classe": "Arqueira",
-        "lvl": "118",
-        "desde": "05/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "Atanazia",
-        "classe": "Atalanta",
-        "lvl": "134",
-        "desde": "05/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "EddyFernandes",
-        "classe": "Lutador",
-        "lvl": "124",
-        "desde": "05/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "BelllaTrix",
-        "classe": "Arqueira",
-        "lvl": "96",
-        "desde": "05/02/2025"
-    },
-    {
-        "posicao": "Membro",
-        "nome": "S3Yumi2S",
-        "classe": "Mago",
-        "lvl": "126",
-        "desde": "05/02/2025"
-    }
+  {
+    "posicao": "Líder",
+    "nome": "xPardal",
+    "classe": "Assassina",
+    "lvl": "136",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Vice-Líder",
+    "nome": "coutinhoowz",
+    "classe": "Mago",
+    "lvl": "132",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "LowKick",
+    "classe": "Guerreira",
+    "lvl": "136",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "BudweiserMS",
+    "classe": "Mecânico",
+    "lvl": "126",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "XandeDoBronx",
+    "classe": "Mecânico",
+    "lvl": "136",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Shottz",
+    "classe": "Lutador",
+    "lvl": "125",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Leleca",
+    "classe": "Arqueira",
+    "lvl": "131",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Lyon",
+    "classe": "Lutador",
+    "lvl": "118",
+    "desde": "28/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Sombra99",
+    "classe": "Atalanta",
+    "lvl": "90",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "XamaQueEleVem",
+    "classe": "Xamã",
+    "lvl": "141",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "BBzord",
+    "classe": "Pike",
+    "lvl": "125",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "EscrivaoPcsp",
+    "classe": "Pike",
+    "lvl": "130",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "buhbble",
+    "classe": "Sacerdotisa",
+    "lvl": "109",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "PandoraHOT",
+    "classe": "Arqueira",
+    "lvl": "109",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Carlinhos",
+    "classe": "Arqueira",
+    "lvl": "100",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Biopower",
+    "classe": "Lutador",
+    "lvl": "85",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Spyu",
+    "classe": "Assassina",
+    "lvl": "81",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "BRASILEIRO",
+    "classe": "Xamã",
+    "lvl": "119",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "EqualizerKS",
+    "classe": "Cavaleiro",
+    "lvl": "118",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Lagherta",
+    "classe": "Arqueira",
+    "lvl": "143",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Gintoki",
+    "classe": "Cavaleiro",
+    "lvl": "127",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Lisa",
+    "classe": "Assassina",
+    "lvl": "126",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Igneelz",
+    "classe": "Lutador",
+    "lvl": "112",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ASBill",
+    "classe": "Arqueira",
+    "lvl": "91",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "YusukeUrameshi",
+    "classe": "Lutador",
+    "lvl": "130",
+    "desde": "29/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Maskara",
+    "classe": "Mago",
+    "lvl": "115",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "CaioCoach",
+    "classe": "Lutador",
+    "lvl": "115",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "zMarechal",
+    "classe": "Lutador",
+    "lvl": "127",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Magordin",
+    "classe": "Mago",
+    "lvl": "117",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Lenake",
+    "classe": "Atalanta",
+    "lvl": "138",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "VimLiMamar",
+    "classe": "Arqueira",
+    "lvl": "124",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Gaucho",
+    "classe": "Lutador",
+    "lvl": "127",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "BarbaNegra",
+    "classe": "Lutador",
+    "lvl": "94",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Rotiv",
+    "classe": "Mago",
+    "lvl": "105",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "FlechaCerteira",
+    "classe": "Arqueira",
+    "lvl": "112",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "furona",
+    "classe": "Arqueira",
+    "lvl": "127",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Valor",
+    "classe": "Cavaleiro",
+    "lvl": "128",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "xPandora",
+    "classe": "Atalanta",
+    "lvl": "102",
+    "desde": "30/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "cRaZyFrogg",
+    "classe": "Lutador",
+    "lvl": "116",
+    "desde": "31/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Kalahari",
+    "classe": "Assassina",
+    "lvl": "115",
+    "desde": "31/01/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "WeedDoc",
+    "classe": "Cavaleiro",
+    "lvl": "133",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ObskurerFuhrer",
+    "classe": "Lutador",
+    "lvl": "137",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "AndinTreteiro",
+    "classe": "Atalanta",
+    "lvl": "134",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Neh",
+    "classe": "Arqueira",
+    "lvl": "120",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "HXGaming",
+    "classe": "Lutador",
+    "lvl": "132",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "MecanicoDoBaja",
+    "classe": "Mecânico",
+    "lvl": "125",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "SuperDedecas",
+    "classe": "Cavaleiro",
+    "lvl": "99",
+    "desde": "01/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "FStale",
+    "classe": "Lutador",
+    "lvl": "133",
+    "desde": "02/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Mzk",
+    "classe": "Atalanta",
+    "lvl": "121",
+    "desde": "02/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Aura",
+    "classe": "Lutador",
+    "lvl": "129",
+    "desde": "02/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ElPoron",
+    "classe": "Xamã",
+    "lvl": "135",
+    "desde": "03/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Marteu",
+    "classe": "Sacerdotisa",
+    "lvl": "126",
+    "desde": "03/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ARCHbullish",
+    "classe": "Arqueira",
+    "lvl": "123",
+    "desde": "04/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "WILLXz",
+    "classe": "Pike",
+    "lvl": "120",
+    "desde": "04/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "SweetSword",
+    "classe": "Cavaleiro",
+    "lvl": "93",
+    "desde": "04/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "zWandaoArcher",
+    "classe": "Arqueira",
+    "lvl": "120",
+    "desde": "04/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "SeiLa",
+    "classe": "Atalanta",
+    "lvl": "119",
+    "desde": "05/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ReCaR",
+    "classe": "Arqueira",
+    "lvl": "118",
+    "desde": "05/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Atanazia",
+    "classe": "Atalanta",
+    "lvl": "134",
+    "desde": "05/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "EddyFernandes",
+    "classe": "Lutador",
+    "lvl": "124",
+    "desde": "05/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "BelllaTrix",
+    "classe": "Arqueira",
+    "lvl": "102",
+    "desde": "05/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "S3Yumi2S",
+    "classe": "Mago",
+    "lvl": "126",
+    "desde": "05/02/2025"
+  }
 ]
