@@ -140,10 +140,12 @@ h2 {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    width: 100%; /* Garantir que a largura da container ocupe todo o espaço */
+    box-sizing: border-box;
 }
 
 .players-column {
-    flex: 1;
+    flex: 1 1 48%; /* Flexível, mas com largura mínima de 48% */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -180,6 +182,17 @@ h2 {
 .players-column li:nth-child(3) {
     background-color: #cd7f32; /* Bronze para o 3º lugar */
 }
+
+@media (max-width: 768px) {
+    .players-columns {
+        flex-direction: column; /* Muda a direção para coluna em dispositivos menores */
+    }
+
+    .players-column {
+        flex: 1 1 100%; /* Cada coluna ocupará 100% da largura */
+    }
+}
+
 
 ul {
     list-style-type: none;
