@@ -2,11 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import requests
 #from webdriver_manager.chrome import ChromeDriverManager
 import json
 import time
@@ -50,7 +47,7 @@ def executar_scraper():
     try:
         # Acessa a página de login
         driver.get("https://zenit.games/priston/login.php")
-        time.sleep(3)
+        time.sleep(1)
 
         print("Página Login Carregada")
 
@@ -58,12 +55,12 @@ def executar_scraper():
         driver.find_element(By.ID, "email").send_keys("lutadorpriston382@gmail.com")
         driver.find_element(By.ID, "c2").send_keys("ywt7wYWT7W@" + Keys.RETURN)
 
-        time.sleep(5)
+        time.sleep(2)
         print("Logado")
 
         # Acessa a página do clã
         driver.get("https://zenit.games/priston/clan.php")
-        time.sleep(3)
+        time.sleep(1)
         print("Meu Clã")
 
         # Encontra o menu suspenso e seleciona o clã
@@ -73,7 +70,7 @@ def executar_scraper():
 
         option_element = driver.find_element(By.XPATH, "//option[@value='43;8']")
         driver.execute_script("arguments[0].click();", option_element)
-        time.sleep(3)
+        time.sleep(1)
         print("Pardal Gaming")
 
         # Lista para armazenar os dados dos jogadores
