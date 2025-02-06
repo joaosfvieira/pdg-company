@@ -119,16 +119,14 @@ h2 {
     justify-content: space-between;
     margin-bottom: 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .classe-container {
-    width: 48%; /* Cada classe ocupará 48% da largura da linha */
-    margin-bottom: 20px; /* Espaço entre as linhas */
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: #222;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    flex: 1 1 48%; /* Cada classe ocupará até 48% da largura */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .classe-images img {
