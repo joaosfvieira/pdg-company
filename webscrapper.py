@@ -4,6 +4,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import requests
 #from webdriver_manager.chrome import ChromeDriverManager
 import json
@@ -17,7 +19,9 @@ def iniciar_driver():
         raise ValueError("BROWSERLESS_API_TOKEN is not set")
 
     # Construct the URL dynamically
-    selenium_endpoint = f"https://{api_token}@chrome.browserless.io/webdriver"
+    #selenium_endpoint = f"https://{api_token}@chrome.browserless.io/webdriver"
+
+    browserless_url = "https://chrome.browserless.io/webdriver"
 
     """Inicializa o WebDriver do Chrome em modo headless."""
     chrome_options = Options()
@@ -27,9 +31,15 @@ def iniciar_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
 
 
+    capabilities = DesiredCapabilities.CHROME.copy()
+    capabilities["goog:chromeOptions"] = chrome_options.to_capabilities()
+
+    # Set custom headers, including Authorization
+    capabilities["browserless:token"] = api_token
+
     driver = webdriver.Remote(
-        command_executor=selenium_endpoint,
-        options=chrome_options
+        command_executor=browserless_url,
+        desired_capabilities=capabilities
     )
 
     return driver
