@@ -47,7 +47,7 @@
                     <div class="players-columns">
                         <div class="players-column">
                             <ul>
-                                {% for jogador in jogadores[:len(jogadores)//2] %}
+                                {% for jogador in jogadores[:jogadores | length // 2] %}
                                     <div class="player {% if loop.index == 1 %}top-1{% elif loop.index == 2 %}top-2{% elif loop.index == 3 %}top-3{% endif %}">
                                         <li>{{ loop.index }}. {{ jogador.nome }} (Lvl {{ jogador.lvl }})</li>
                                     </div>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="players-column">
                             <ul>
-                                {% for jogador in jogadores[len(jogadores)//2:] %}
+                                {% for jogador in jogadores[jogadores | length // 2:] %}
                                     <div class="player {% if loop.index == 1 %}top-1{% elif loop.index == 2 %}top-2{% elif loop.index == 3 %}top-3{% endif %}">
                                         <li>{{ loop.index }}. {{ jogador.nome }} (Lvl {{ jogador.lvl }})</li>
                                     </div>
@@ -67,6 +67,7 @@
                 </div>
             {% endfor %}
         </div>
+        
 
     <!-- Sessão de Estatísticas Gerais -->
     <div class="statistics">
