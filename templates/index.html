@@ -6,7 +6,7 @@
     <title>Clã - Lista de Jogadores</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
-    <link href="../public/styles.css" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
 </head>
 <body>
 
@@ -39,34 +39,28 @@
         
         <div class="players-list">
             {% for classe, jogadores in classes.items() %}
-                <div class="classe-container">
-                    <div class="classe-images">
-                        <img src="{{ url_for('static', filename='images/' + classe | lower | replace(' ', '_') + '.png') }}" 
-                             alt="{{ classe }}">
-                    </div>
-                    <div class="players-columns">
-                        <div class="players-column">
-                            <ul>
-                                {% for jogador in jogadores[:jogadores | length // 2] %}
-                                    <div class="player {% if loop.index == 1 %}top-1{% elif loop.index == 2 %}top-2{% elif loop.index == 3 %}top-3{% endif %}">
-                                        <li>{{ loop.index }}. {{ jogador.nome }} (Lvl {{ jogador.lvl }})</li>
-                                    </div>
-                                {% endfor %}
-                            </ul>
+                {% if loop.index is divisibleby 2 %}
+                    <div class="players-row">
+                {% endif %}
+                    <div class="classe-container">
+                        <div class="classe-images">
+                            <img src="{{ url_for('static', filename='images/' + classe | lower | replace(' ', '_') + '.png') }}" 
+                                 alt="{{ classe }}">
                         </div>
-                        <div class="players-column">
-                            <ul>
-                                {% for jogador in jogadores[jogadores | length // 2:] %}
-                                    <div class="player {% if loop.index == 1 %}top-1{% elif loop.index == 2 %}top-2{% elif loop.index == 3 %}top-3{% endif %}">
-                                        <li>{{ loop.index }}. {{ jogador.nome }} (Lvl {{ jogador.lvl }})</li>
-                                    </div>
-                                {% endfor %}
-                            </ul>
-                        </div>
+                        <ul>
+                            {% for jogador in jogadores %}
+                            <div class="player {% if loop.index == 1 %}top-1{% elif loop.index == 2 %}top-2{% elif loop.index == 3 %}top-3{% endif %}">
+                                <li>{{ loop.index }}. {{ jogador.nome }} (Lvl {{ jogador.lvl }})</li>
+                            </div>
+                            {% endfor %}
+                        </ul>
                     </div>
-                </div>
+                {% if loop.index is divisibleby 2 or loop.index == classes|length %}
+                    </div> <!-- End of row -->
+                {% endif %}
             {% endfor %}
         </div>
+        
         
 
     <!-- Sessão de Estatísticas Gerais -->
