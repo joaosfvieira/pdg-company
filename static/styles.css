@@ -109,19 +109,20 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 20px; /* Adiciona as margens laterais */
+    padding: 0 20px;
 }
 
 .players-row {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 20px; /* Espaço entre as linhas */
+    margin-bottom: 20px;
 }
 
 .classe-container {
     width: 48%; /* Cada classe ocupará 48% da largura da linha */
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Espaço entre as linhas */
+    box-sizing: border-box;
 }
 
 .classe-images img {
