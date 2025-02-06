@@ -32,7 +32,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git add jogadores.json
         git commit -m "Add scraped JSON data"
-        git push origin master
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/joaosfvieira/pdg-company.git
       env:
         # Use a GitHub token to authenticate
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
