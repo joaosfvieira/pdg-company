@@ -1,8 +1,11 @@
 from flask import Flask, render_template, jsonify
 import json
-
+import unicodedata
 
 app = Flask(__name__)
+
+def remover_acentos(texto):
+    return ''.join(c for c in unicodedata.normalize('NFKD', texto) if not unicodedata.combining(c))
 
 # Carregar os dados do JSON gerado pelo Selenium
 def carregar_jogadores():
@@ -25,22 +28,22 @@ def index():
 
     # Dicionário para armazenar os jogadores por classe
     classes = {
-        "Guerreira": [],
         "Assassina": [],
-        "Arqueira": [],
+        "Guerreira": [],
         "Lutador": [],
-        "Pike": [],
-        "Mecânico": [],
-        "Xamã": [],
-        "Sacerdotisa": [],
         "Cavaleiro": [],
+        "Mecanico": [],
+        "Pike": [],
+        "Arqueira": [],
+        "Atalanta": [],
         "Mago": [],
-        "Atalanta": []
+        "Xama": [],
+        "Sacerdotisa": []
     }
 
     # Distribuir jogadores em suas respectivas classes
     for jogador in sorted_players:
-        classe = jogador["classe"]
+        classe = remover_acentos(jogador["classe"])
         if classe in classes:
             classes[classe].append(jogador)
 
