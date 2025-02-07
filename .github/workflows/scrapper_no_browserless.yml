@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
     
     - name: Run Scraper
-      run: python webscrapper.py
+      run: python webscrapper_no_browserless.py
 
     - name: Commit and push generated JSON file
       run: |
