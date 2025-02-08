@@ -24,7 +24,7 @@
     "posicao": "Membro",
     "nome": "BudweiserMS",
     "classe": "Mecânico",
-    "lvl": "129",
+    "lvl": "130",
     "desde": "28/01/2025"
   },
   {
@@ -283,7 +283,7 @@
     "posicao": "Membro",
     "nome": "Mzk",
     "classe": "Atalanta",
-    "lvl": "127",
+    "lvl": "128",
     "desde": "02/02/2025"
   },
   {
@@ -403,6 +403,13 @@
     "nome": "Eros",
     "classe": "Mecânico",
     "lvl": "129",
+    "desde": "08/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Lo8p",
+    "classe": "Xamã",
+    "lvl": "136",
     "desde": "08/02/2025"
   }
 ]
