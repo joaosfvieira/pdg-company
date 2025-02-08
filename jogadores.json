@@ -129,7 +129,7 @@
     "posicao": "Membro",
     "nome": "YusukeUrameshi",
     "classe": "Lutador",
-    "lvl": "131",
+    "lvl": "132",
     "desde": "29/01/2025"
   },
   {
@@ -164,7 +164,7 @@
     "posicao": "Membro",
     "nome": "VimLiMamar",
     "classe": "Arqueira",
-    "lvl": "124",
+    "lvl": "125",
     "desde": "30/01/2025"
   },
   {
@@ -397,5 +397,12 @@
     "classe": "Arqueira",
     "lvl": "132",
     "desde": "07/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Eros",
+    "classe": "Mecânico",
+    "lvl": "128",
+    "desde": "08/02/2025"
   }
 ]
