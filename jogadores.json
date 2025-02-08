@@ -52,7 +52,7 @@
     "posicao": "Membro",
     "nome": "XamaQueEleVem",
     "classe": "Xamã",
-    "lvl": "141",
+    "lvl": "142",
     "desde": "29/01/2025"
   },
   {
@@ -94,7 +94,7 @@
     "posicao": "Membro",
     "nome": "Lagherta",
     "classe": "Arqueira",
-    "lvl": "144",
+    "lvl": "145",
     "desde": "29/01/2025"
   },
   {
@@ -276,7 +276,7 @@
     "posicao": "Membro",
     "nome": "FStale",
     "classe": "Lutador",
-    "lvl": "134",
+    "lvl": "135",
     "desde": "02/02/2025"
   },
   {
@@ -374,14 +374,14 @@
     "posicao": "Membro",
     "nome": "S3Yumi2S",
     "classe": "Mago",
-    "lvl": "128",
+    "lvl": "129",
     "desde": "05/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "Shadow13",
     "classe": "Mago",
-    "lvl": "113",
+    "lvl": "114",
     "desde": "07/02/2025"
   },
   {
@@ -395,7 +395,7 @@
     "posicao": "Membro",
     "nome": "DnL",
     "classe": "Arqueira",
-    "lvl": "131",
+    "lvl": "132",
     "desde": "07/02/2025"
   }
 ]
