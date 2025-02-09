@@ -304,7 +304,7 @@
     "posicao": "Membro",
     "nome": "WILLXz",
     "classe": "Pike",
-    "lvl": "122",
+    "lvl": "123",
     "desde": "04/02/2025"
   },
   {
@@ -397,5 +397,12 @@
     "classe": "Xamã",
     "lvl": "136",
     "desde": "08/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Qiang",
+    "classe": "Atalanta",
+    "lvl": "127",
+    "desde": "09/02/2025"
   }
 ]
