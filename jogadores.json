@@ -122,7 +122,7 @@
     "posicao": "Membro",
     "nome": "ASBill",
     "classe": "Arqueira",
-    "lvl": "91",
+    "lvl": "92",
     "desde": "29/01/2025"
   },
   {
@@ -185,7 +185,7 @@
     "posicao": "Membro",
     "nome": "furona",
     "classe": "Arqueira",
-    "lvl": "129",
+    "lvl": "130",
     "desde": "30/01/2025"
   },
   {
@@ -262,7 +262,7 @@
     "posicao": "Membro",
     "nome": "FStale",
     "classe": "Lutador",
-    "lvl": "136",
+    "lvl": "137",
     "desde": "02/02/2025"
   },
   {
@@ -403,6 +403,13 @@
     "nome": "Qiang",
     "classe": "Atalanta",
     "lvl": "127",
+    "desde": "09/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Duquesa",
+    "classe": "Arqueira",
+    "lvl": "130",
     "desde": "09/02/2025"
   }
 ]
