@@ -17,7 +17,7 @@
     "posicao": "Membro",
     "nome": "LowKick",
     "classe": "Guerreira",
-    "lvl": "139",
+    "lvl": "140",
     "desde": "28/01/2025"
   },
   {
@@ -269,7 +269,7 @@
     "posicao": "Membro",
     "nome": "Mzk",
     "classe": "Atalanta",
-    "lvl": "130",
+    "lvl": "131",
     "desde": "02/02/2025"
   },
   {
@@ -411,5 +411,12 @@
     "classe": "Arqueira",
     "lvl": "130",
     "desde": "09/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ExSouls",
+    "classe": "Arqueira",
+    "lvl": "139",
+    "desde": "10/02/2025"
   }
 ]
