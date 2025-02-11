@@ -178,7 +178,7 @@
     "posicao": "Membro",
     "nome": "furona",
     "classe": "Arqueira",
-    "lvl": "130",
+    "lvl": "131",
     "desde": "30/01/2025"
   },
   {
@@ -332,7 +332,7 @@
     "posicao": "Membro",
     "nome": "EddyFernandes",
     "classe": "Lutador",
-    "lvl": "130",
+    "lvl": "131",
     "desde": "05/02/2025"
   },
   {
@@ -417,6 +417,13 @@
     "nome": "FlamingThunder",
     "classe": "Arqueira",
     "lvl": "117",
+    "desde": "10/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "UglyBoy",
+    "classe": "Lutador",
+    "lvl": "127",
     "desde": "10/02/2025"
   }
 ]
