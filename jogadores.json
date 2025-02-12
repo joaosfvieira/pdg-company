@@ -3,7 +3,7 @@
     "posicao": "Líder",
     "nome": "xPardal",
     "classe": "Assassina",
-    "lvl": "138",
+    "lvl": "139",
     "desde": "28/01/2025"
   },
   {
@@ -227,7 +227,7 @@
     "posicao": "Membro",
     "nome": "MecanicoDoBaja",
     "classe": "Mecânico",
-    "lvl": "128",
+    "lvl": "129",
     "desde": "01/02/2025"
   },
   {
@@ -248,7 +248,7 @@
     "posicao": "Membro",
     "nome": "Mzk",
     "classe": "Atalanta",
-    "lvl": "131",
+    "lvl": "132",
     "desde": "02/02/2025"
   },
   {
@@ -284,13 +284,6 @@
     "nome": "WILLXz",
     "classe": "Pike",
     "lvl": "123",
-    "desde": "04/02/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "SweetSword",
-    "classe": "Cavaleiro",
-    "lvl": "93",
     "desde": "04/02/2025"
   },
   {
@@ -353,14 +346,14 @@
     "posicao": "Membro",
     "nome": "Mist4ke",
     "classe": "Lutador",
-    "lvl": "142",
+    "lvl": "143",
     "desde": "07/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "DnL",
     "classe": "Arqueira",
-    "lvl": "134",
+    "lvl": "135",
     "desde": "07/02/2025"
   },
   {
@@ -416,7 +409,14 @@
     "posicao": "Membro",
     "nome": "UglyBoy",
     "classe": "Lutador",
-    "lvl": "127",
+    "lvl": "128",
     "desde": "10/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Crohn",
+    "classe": "Atalanta",
+    "lvl": "125",
+    "desde": "11/02/2025"
   }
 ]
