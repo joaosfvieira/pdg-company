@@ -64,13 +64,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "EscrivaoPcsp",
-    "classe": "Pike",
-    "lvl": "134",
-    "desde": "29/01/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "PandoraHOT",
     "classe": "Arqueira",
     "lvl": "109",
@@ -101,7 +94,7 @@
     "posicao": "Membro",
     "nome": "Lisa",
     "classe": "Assassina",
-    "lvl": "130",
+    "lvl": "131",
     "desde": "29/01/2025"
   },
   {
@@ -199,7 +192,7 @@
     "posicao": "Membro",
     "nome": "WeedDoc",
     "classe": "Cavaleiro",
-    "lvl": "140",
+    "lvl": "141",
     "desde": "01/02/2025"
   },
   {
@@ -409,7 +402,7 @@
     "posicao": "Membro",
     "nome": "UglyBoy",
     "classe": "Lutador",
-    "lvl": "128",
+    "lvl": "129",
     "desde": "10/02/2025"
   },
   {
@@ -418,5 +411,12 @@
     "classe": "Atalanta",
     "lvl": "125",
     "desde": "11/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "DarkZion",
+    "classe": "Lutador",
+    "lvl": "132",
+    "desde": "12/02/2025"
   }
 ]
