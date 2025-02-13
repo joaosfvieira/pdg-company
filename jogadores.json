@@ -15,13 +15,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "LowKick",
-    "classe": "Guerreira",
-    "lvl": "141",
-    "desde": "28/01/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "BudweiserMS",
     "classe": "Mecânico",
     "lvl": "130",
@@ -411,5 +404,12 @@
     "classe": "Lutador",
     "lvl": "133",
     "desde": "12/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "LowKick",
+    "classe": "Guerreira",
+    "lvl": "141",
+    "desde": "13/02/2025"
   }
 ]
