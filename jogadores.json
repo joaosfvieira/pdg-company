@@ -311,21 +311,21 @@
     "posicao": "Membro",
     "nome": "S3Yumi2S",
     "classe": "Mago",
-    "lvl": "132",
+    "lvl": "133",
     "desde": "05/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "Shadow13",
     "classe": "Mago",
-    "lvl": "126",
+    "lvl": "127",
     "desde": "07/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "Mist4ke",
     "classe": "Lutador",
-    "lvl": "144",
+    "lvl": "145",
     "desde": "07/02/2025"
   },
   {
@@ -339,7 +339,7 @@
     "posicao": "Membro",
     "nome": "Eros",
     "classe": "Mecânico",
-    "lvl": "137",
+    "lvl": "138",
     "desde": "08/02/2025"
   },
   {
@@ -353,7 +353,7 @@
     "posicao": "Membro",
     "nome": "Qiang",
     "classe": "Atalanta",
-    "lvl": "129",
+    "lvl": "130",
     "desde": "09/02/2025"
   },
   {
@@ -388,7 +388,7 @@
     "posicao": "Membro",
     "nome": "UglyBoy",
     "classe": "Lutador",
-    "lvl": "130",
+    "lvl": "131",
     "desde": "10/02/2025"
   },
   {
@@ -410,6 +410,13 @@
     "nome": "LowKick",
     "classe": "Guerreira",
     "lvl": "141",
+    "desde": "13/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Nik",
+    "classe": "Sacerdotisa",
+    "lvl": "126",
     "desde": "13/02/2025"
   }
 ]
