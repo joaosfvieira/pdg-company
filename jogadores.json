@@ -38,7 +38,7 @@
     "posicao": "Membro",
     "nome": "Lyon",
     "classe": "Lutador",
-    "lvl": "125",
+    "lvl": "126",
     "desde": "28/01/2025"
   },
   {
@@ -157,7 +157,7 @@
     "posicao": "Membro",
     "nome": "furona",
     "classe": "Arqueira",
-    "lvl": "134",
+    "lvl": "135",
     "desde": "30/01/2025"
   },
   {
@@ -171,7 +171,7 @@
     "posicao": "Membro",
     "nome": "cRaZyFrogg",
     "classe": "Lutador",
-    "lvl": "128",
+    "lvl": "129",
     "desde": "31/01/2025"
   },
   {
@@ -192,7 +192,7 @@
     "posicao": "Membro",
     "nome": "MecanicoDoBaja",
     "classe": "Mecânico",
-    "lvl": "131",
+    "lvl": "132",
     "desde": "01/02/2025"
   },
   {
@@ -353,7 +353,7 @@
     "posicao": "Membro",
     "nome": "PhantonLancer",
     "classe": "Atalanta",
-    "lvl": "137",
+    "lvl": "138",
     "desde": "10/02/2025"
   },
   {
@@ -403,6 +403,13 @@
     "nome": "1000treta",
     "classe": "Lutador",
     "lvl": "135",
+    "desde": "17/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Paris",
+    "classe": "Arqueira",
+    "lvl": "117",
     "desde": "17/02/2025"
   }
 ]
