@@ -31,7 +31,7 @@
     "posicao": "Membro",
     "nome": "Leleca",
     "classe": "Arqueira",
-    "lvl": "139",
+    "lvl": "140",
     "desde": "28/01/2025"
   },
   {
@@ -157,7 +157,7 @@
     "posicao": "Membro",
     "nome": "Valor",
     "classe": "Cavaleiro",
-    "lvl": "135",
+    "lvl": "136",
     "desde": "30/01/2025"
   },
   {
@@ -404,5 +404,12 @@
     "classe": "Mecânico",
     "lvl": "142",
     "desde": "19/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "AtaShadow",
+    "classe": "Atalanta",
+    "lvl": "134",
+    "desde": "20/02/2025"
   }
 ]
