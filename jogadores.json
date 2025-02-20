@@ -325,7 +325,7 @@
     "posicao": "Membro",
     "nome": "ExSouls",
     "classe": "Arqueira",
-    "lvl": "144",
+    "lvl": "145",
     "desde": "10/02/2025"
   },
   {
@@ -410,6 +410,13 @@
     "nome": "AtaShadow",
     "classe": "Atalanta",
     "lvl": "134",
+    "desde": "20/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "zVan",
+    "classe": "Cavaleiro",
+    "lvl": "121",
     "desde": "20/02/2025"
   }
 ]
