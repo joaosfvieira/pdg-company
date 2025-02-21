@@ -418,5 +418,19 @@
     "classe": "Lutador",
     "lvl": "129",
     "desde": "21/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Snarf",
+    "classe": "Xamã",
+    "lvl": "77",
+    "desde": "21/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "SwordRz",
+    "classe": "Guerreira",
+    "lvl": "136",
+    "desde": "21/02/2025"
   }
 ]
