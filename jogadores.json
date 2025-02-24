@@ -213,7 +213,7 @@
     "posicao": "Membro",
     "nome": "Atanazia",
     "classe": "Atalanta",
-    "lvl": "143",
+    "lvl": "144",
     "desde": "05/02/2025"
   },
   {
@@ -397,5 +397,12 @@
     "classe": "Mago",
     "lvl": "133",
     "desde": "22/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ABRABAtemNOME",
+    "classe": "Sacerdotisa",
+    "lvl": "127",
+    "desde": "23/02/2025"
   }
 ]
