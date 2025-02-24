@@ -404,5 +404,12 @@
     "classe": "Sacerdotisa",
     "lvl": "127",
     "desde": "23/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "EstrelaDaNoite",
+    "classe": "Guerreira",
+    "lvl": "63",
+    "desde": "23/02/2025"
   }
 ]
