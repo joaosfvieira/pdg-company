@@ -379,13 +379,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "ABRABAtemNOME",
-    "classe": "Sacerdotisa",
-    "lvl": "132",
-    "desde": "23/02/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "EstrelaDaNoite",
     "classe": "Guerreira",
     "lvl": "115",
@@ -425,5 +418,19 @@
     "classe": "Sacerdotisa",
     "lvl": "102",
     "desde": "25/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "PSbullish",
+    "classe": "Pike",
+    "lvl": "125",
+    "desde": "28/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "EltraficoFS",
+    "classe": "Lutador",
+    "lvl": "142",
+    "desde": "28/02/2025"
   }
 ]
