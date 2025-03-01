@@ -367,7 +367,7 @@
     "posicao": "Membro",
     "nome": "SwordRz",
     "classe": "Guerreira",
-    "lvl": "138",
+    "lvl": "139",
     "desde": "21/02/2025"
   },
   {
@@ -409,7 +409,7 @@
     "posicao": "Membro",
     "nome": "magolunar",
     "classe": "Mago",
-    "lvl": "132",
+    "lvl": "133",
     "desde": "24/02/2025"
   },
   {
@@ -432,5 +432,12 @@
     "classe": "Lutador",
     "lvl": "142",
     "desde": "28/02/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "F0rasteiro",
+    "classe": "Lutador",
+    "lvl": "122",
+    "desde": "01/03/2025"
   }
 ]
