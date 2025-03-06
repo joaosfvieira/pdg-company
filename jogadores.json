@@ -346,7 +346,7 @@
     "posicao": "Membro",
     "nome": "Snarf",
     "classe": "Xamã",
-    "lvl": "123",
+    "lvl": "124",
     "desde": "21/02/2025"
   },
   {
@@ -418,5 +418,33 @@
     "classe": "Lutador",
     "lvl": "132",
     "desde": "01/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ReikoXD",
+    "classe": "Lutador",
+    "lvl": "116",
+    "desde": "05/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "TheMs",
+    "classe": "Mecânico",
+    "lvl": "115",
+    "desde": "05/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "MadMikeX",
+    "classe": "Cavaleiro",
+    "lvl": "116",
+    "desde": "05/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Faisca",
+    "classe": "Lutador",
+    "lvl": "132",
+    "desde": "05/03/2025"
   }
 ]
