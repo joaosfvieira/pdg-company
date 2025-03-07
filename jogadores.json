@@ -3,7 +3,7 @@
     "posicao": "Líder",
     "nome": "xPardal",
     "classe": "Assassina",
-    "lvl": "147",
+    "lvl": "148",
     "desde": "28/01/2025"
   },
   {
@@ -11,13 +11,6 @@
     "nome": "coutinhoowz",
     "classe": "Mago",
     "lvl": "145",
-    "desde": "28/01/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "XandeDoBronx",
-    "classe": "Mecânico",
-    "lvl": "138",
     "desde": "28/01/2025"
   },
   {
@@ -59,7 +52,7 @@
     "posicao": "Membro",
     "nome": "CaioCoach",
     "classe": "Lutador",
-    "lvl": "138",
+    "lvl": "139",
     "desde": "30/01/2025"
   },
   {
@@ -94,21 +87,14 @@
     "posicao": "Membro",
     "nome": "FlechaCerteira",
     "classe": "Arqueira",
-    "lvl": "132",
+    "lvl": "133",
     "desde": "30/01/2025"
   },
   {
     "posicao": "Membro",
     "nome": "furona",
     "classe": "Arqueira",
-    "lvl": "152",
-    "desde": "30/01/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "Valor",
-    "classe": "Cavaleiro",
-    "lvl": "138",
+    "lvl": "154",
     "desde": "30/01/2025"
   },
   {
@@ -123,13 +109,6 @@
     "nome": "MecanicoDoBaja",
     "classe": "Mecânico",
     "lvl": "135",
-    "desde": "01/02/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "SuperDedecas",
-    "classe": "Cavaleiro",
-    "lvl": "119",
     "desde": "01/02/2025"
   },
   {
@@ -176,13 +155,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "ReCaR",
-    "classe": "Arqueira",
-    "lvl": "125",
-    "desde": "05/02/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "Atanazia",
     "classe": "Atalanta",
     "lvl": "146",
@@ -199,7 +171,7 @@
     "posicao": "Membro",
     "nome": "Shadow13",
     "classe": "Mago",
-    "lvl": "138",
+    "lvl": "139",
     "desde": "07/02/2025"
   },
   {
@@ -207,13 +179,6 @@
     "nome": "Mist4ke",
     "classe": "Lutador",
     "lvl": "155",
-    "desde": "07/02/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "DnL",
-    "classe": "Arqueira",
-    "lvl": "135",
     "desde": "07/02/2025"
   },
   {
@@ -228,13 +193,6 @@
     "nome": "Qiang",
     "classe": "Atalanta",
     "lvl": "138",
-    "desde": "09/02/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "Duquesa",
-    "classe": "Arqueira",
-    "lvl": "137",
     "desde": "09/02/2025"
   },
   {
@@ -262,7 +220,7 @@
     "posicao": "Membro",
     "nome": "UglyBoy",
     "classe": "Lutador",
-    "lvl": "142",
+    "lvl": "143",
     "desde": "10/02/2025"
   },
   {
@@ -283,7 +241,7 @@
     "posicao": "Membro",
     "nome": "Nik",
     "classe": "Sacerdotisa",
-    "lvl": "139",
+    "lvl": "140",
     "desde": "13/02/2025"
   },
   {
@@ -304,7 +262,7 @@
     "posicao": "Membro",
     "nome": "SrLyon",
     "classe": "Sacerdotisa",
-    "lvl": "135",
+    "lvl": "136",
     "desde": "19/02/2025"
   },
   {
@@ -318,14 +276,7 @@
     "posicao": "Membro",
     "nome": "AtaShadow",
     "classe": "Atalanta",
-    "lvl": "144",
-    "desde": "20/02/2025"
-  },
-  {
-    "posicao": "Membro",
-    "nome": "zVan",
-    "classe": "Cavaleiro",
-    "lvl": "129",
+    "lvl": "145",
     "desde": "20/02/2025"
   },
   {
@@ -339,14 +290,14 @@
     "posicao": "Membro",
     "nome": "Snarf",
     "classe": "Xamã",
-    "lvl": "125",
+    "lvl": "126",
     "desde": "21/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "SwordRz",
     "classe": "Guerreira",
-    "lvl": "141",
+    "lvl": "142",
     "desde": "21/02/2025"
   },
   {
@@ -360,21 +311,21 @@
     "posicao": "Membro",
     "nome": "exUz",
     "classe": "Lutador",
-    "lvl": "141",
+    "lvl": "142",
     "desde": "24/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "Nany",
     "classe": "Sacerdotisa",
-    "lvl": "134",
+    "lvl": "135",
     "desde": "24/02/2025"
   },
   {
     "posicao": "Membro",
     "nome": "Boleiraa",
     "classe": "Arqueira",
-    "lvl": "133",
+    "lvl": "135",
     "desde": "24/02/2025"
   },
   {
@@ -395,7 +346,7 @@
     "posicao": "Membro",
     "nome": "PSbullish",
     "classe": "Pike",
-    "lvl": "131",
+    "lvl": "132",
     "desde": "28/02/2025"
   },
   {
@@ -416,7 +367,7 @@
     "posicao": "Membro",
     "nome": "ReikoXD",
     "classe": "Lutador",
-    "lvl": "117",
+    "lvl": "120",
     "desde": "05/03/2025"
   },
   {
@@ -439,5 +390,19 @@
     "classe": "Lutador",
     "lvl": "134",
     "desde": "05/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Tinoko",
+    "classe": "Lutador",
+    "lvl": "111",
+    "desde": "06/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Valor",
+    "classe": "Cavaleiro",
+    "lvl": "138",
+    "desde": "07/03/2025"
   }
 ]
