@@ -148,13 +148,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "Shadow13",
-    "classe": "Mago",
-    "lvl": "143",
-    "desde": "07/02/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "Qiang",
     "classe": "Atalanta",
     "lvl": "138",
@@ -295,13 +288,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "MadMikeX",
-    "classe": "Cavaleiro",
-    "lvl": "132",
-    "desde": "05/03/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "Faisca",
     "classe": "Lutador",
     "lvl": "138",
@@ -334,5 +320,12 @@
     "classe": "Mecânico",
     "lvl": "134",
     "desde": "12/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Shadow13",
+    "classe": "Mago",
+    "lvl": "143",
+    "desde": "14/03/2025"
   }
 ]
