@@ -71,13 +71,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "Gaucho",
-    "classe": "Lutador",
-    "lvl": "144",
-    "desde": "30/01/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "Rotiv",
     "classe": "Mago",
     "lvl": "108",
@@ -162,13 +155,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "Lo8p",
-    "classe": "Xamã",
-    "lvl": "152",
-    "desde": "08/02/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "Qiang",
     "classe": "Atalanta",
     "lvl": "138",
@@ -232,13 +218,6 @@
   },
   {
     "posicao": "Membro",
-    "nome": "AtaShadow",
-    "classe": "Atalanta",
-    "lvl": "147",
-    "desde": "20/02/2025"
-  },
-  {
-    "posicao": "Membro",
     "nome": "xHooliganx",
     "classe": "Lutador",
     "lvl": "137",
@@ -283,7 +262,7 @@
     "posicao": "Membro",
     "nome": "zIdhas",
     "classe": "Sacerdotisa",
-    "lvl": "119",
+    "lvl": "120",
     "desde": "25/02/2025"
   },
   {
@@ -325,7 +304,7 @@
     "posicao": "Membro",
     "nome": "MadMikeX",
     "classe": "Cavaleiro",
-    "lvl": "130",
+    "lvl": "131",
     "desde": "05/03/2025"
   },
   {
