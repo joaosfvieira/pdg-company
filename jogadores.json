@@ -7,7 +7,7 @@
     "desde": "28/01/2025"
   },
   {
-    "posicao": "Vice-Líder",
+    "posicao": "Membro",
     "nome": "coutinhoowz",
     "classe": "Mago",
     "lvl": "146",
@@ -108,7 +108,7 @@
     "posicao": "Membro",
     "nome": "Mzk",
     "classe": "Atalanta",
-    "lvl": "138",
+    "lvl": "139",
     "desde": "02/02/2025"
   },
   {
@@ -129,7 +129,7 @@
     "posicao": "Membro",
     "nome": "zWandaoArcher",
     "classe": "Arqueira",
-    "lvl": "141",
+    "lvl": "142",
     "desde": "04/02/2025"
   },
   {
@@ -185,7 +185,7 @@
     "posicao": "Membro",
     "nome": "Crohn",
     "classe": "Atalanta",
-    "lvl": "137",
+    "lvl": "138",
     "desde": "11/02/2025"
   },
   {
@@ -334,5 +334,68 @@
     "classe": "Lutador",
     "lvl": "131",
     "desde": "14/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "PardalColossal",
+    "classe": "Mago",
+    "lvl": "61",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Coxinha",
+    "classe": "Lutador",
+    "lvl": "110",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Novak",
+    "classe": "Xamã",
+    "lvl": "1",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "HxTrevas",
+    "classe": "Xamã",
+    "lvl": "61",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Rambo",
+    "classe": "Pike",
+    "lvl": "99",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Protagonista",
+    "classe": "Sacerdotisa",
+    "lvl": "123",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "DarkMaggician",
+    "classe": "Mago",
+    "lvl": "102",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "SouNoobExtremo",
+    "classe": "Mago",
+    "lvl": "94",
+    "desde": "16/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "ShadowSide",
+    "classe": "Arqueira",
+    "lvl": "60",
+    "desde": "16/03/2025"
   }
 ]
