@@ -290,7 +290,7 @@
     "posicao": "Membro",
     "nome": "Tinoko",
     "classe": "Lutador",
-    "lvl": "125",
+    "lvl": "126",
     "desde": "06/03/2025"
   },
   {
@@ -374,7 +374,7 @@
     "posicao": "Membro",
     "nome": "SouNoobExtremo",
     "classe": "Mago",
-    "lvl": "114",
+    "lvl": "115",
     "desde": "16/03/2025"
   },
   {
@@ -389,6 +389,20 @@
     "nome": "HxPoseidon",
     "classe": "Atalanta",
     "lvl": "110",
+    "desde": "18/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "Jplatonzim",
+    "classe": "Arqueira",
+    "lvl": "113",
+    "desde": "18/03/2025"
+  },
+  {
+    "posicao": "Membro",
+    "nome": "JpMSzim",
+    "classe": "Mecânico",
+    "lvl": "114",
     "desde": "18/03/2025"
   }
 ]
